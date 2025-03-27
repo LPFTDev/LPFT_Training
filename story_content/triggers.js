@@ -2,37 +2,37 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5uAgqPOe4tu":
+      case "5oWZ2JJnHz3":
         Script1();
         break;
-      case "6oulap2OpLt":
+      case "6JvBADeKteI":
         Script2();
         break;
-      case "6ljbSDHM0E6":
+      case "5dDksUltTpo":
         Script3();
         break;
-      case "6Z9ZbtdxyAl":
+      case "6AdLamcbb45":
         Script4();
         break;
-      case "6KfIFdfsrVG":
+      case "6ZP8XpI4Y70":
         Script5();
         break;
-      case "68aOyJ2MSRI":
+      case "6fjuOAG1l2w":
         Script6();
         break;
-      case "5dwE4YDO6IP":
+      case "5fWRzcNFdJY":
         Script7();
         break;
-      case "69w4cff6T0V":
+      case "6j4wc7ensbP":
         Script8();
         break;
-      case "69oA81VHD7E":
+      case "5saPxA4aFB8":
         Script9();
         break;
-      case "5lGgkJbUmxS":
+      case "6Ox6XOSFpiC":
         Script10();
         break;
-      case "5VBv7jOizGz":
+      case "6TXF0Tmrmva":
         Script11();
         break;
   }
@@ -42,9 +42,17 @@ window.InitExecuteScripts = function()
 {
 var player = GetPlayer();
 var object = player.object;
+var once = player.once;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
+var update = player.update;
+var pointerX = player.pointerX;
+var pointerY = player.pointerY;
+var showPointer = player.showPointer;
+var hidePointer = player.hidePointer;
+var slideWidth = player.slideWidth;
+var slideHeight = player.slideHeight;
 window.Script1 = function()
 {
   player.once(() => {
